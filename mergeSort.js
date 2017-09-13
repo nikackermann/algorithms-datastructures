@@ -34,7 +34,7 @@ var merge = function(array, p, q, r) {
  
     }
     
-   /* // copy remaining items from lowHalf & highHalf.
+   // copy remaining items from lowHalf & highHalf.
     for(;i < lowHalf.length;) {
         array[k] = lowHalf[i];
         i++; // increment lowHalf position;
@@ -46,8 +46,6 @@ var merge = function(array, p, q, r) {
         j++;  // increment highHalf position;
         k++; // increment array position;
     }
-    */
-
 };
 
 var mergeSort = function(array, p, r) {
